@@ -7,6 +7,6 @@ def hello_world():
     return render_template("home.html")
 
 
-@app.route("/there")
-def hello_there():
-    return "<p>hello there!</p>"
+@app.route("/other")
+def other():
+    return render_template("other.html")
