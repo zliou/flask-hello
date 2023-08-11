@@ -7,6 +7,8 @@
 
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
 
+<script src="{{ url_for('static', filename='clicked.js') }}"></script>
+
 </head>
 <body>
 
@@ -14,6 +16,10 @@
 
 <div class="clickable" onclick="window.location.href='{{ url_for('hello_world') }}'">
     <p>Return home</p>
+</div>
+
+<div class="clickable" onclick="clickedSomethingElse()">
+    <p id="mutable">See something else ...<p>
 </div>
 
 </body>
