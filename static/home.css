@@ -6,3 +6,9 @@ h1, p, a {
     font-family: sans-serif;
 }
 
+.clickable {
+    background-color: #aaaaaa;
+    height: 100px;
+    width: 200px;
+}
+

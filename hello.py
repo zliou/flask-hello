@@ -10,3 +10,10 @@ def hello_world():
 @app.route("/other")
 def other():
     return render_template("other.html")
+
+
+@app.route("/click")
+def click():
+    print("clicked on div")
+    return render_template("clicked.html")
+
